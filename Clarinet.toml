@@ -1,0 +1,15 @@
+[project]
+name = "PSHT Token"
+description = "A simple token contract for the BlockDev workshop"
+authors = ["Rapiip"]
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.simple-token-1]
+path = "contracts/PemudaSehat.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+costs_version = 2
+parser_version = 2

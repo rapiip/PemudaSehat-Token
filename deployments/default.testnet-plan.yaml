@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: simple-token-1
+            expected-sender: ST1GRNKFECYPYT1ZEC1SE7JN6B0TP3FJDHRV9FH2N
+            cost: 2521
+            path: "contracts\\PemudaSehat.clar"
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
