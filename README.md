@@ -1,15 +1,36 @@
 PSHT Token – Blockchain Fitness Reward System
-📌 Deskripsi Proyek
-PSHT (PemudaSehat Token) adalah token berbasis blockchain Stacks (SIP-010 compliant) yang digunakan untuk memberi reward kepada pengguna yang mengikuti aktivitas olahraga atau kegiatan sehat.
-Proyek ini terdiri dari:
 
-Smart Contract di Stacks (Clarity)
+📌 Project Description
+PSHT (PemudaSehat Token) is a Stacks-based SIP-010 compliant fungible token designed to reward individuals for healthy activities such as walking, running, or participating in sports events.
 
-Frontend berbasis Vite + React + TailwindCSS untuk interaksi dengan kontrak di Testnet
+The project includes:
+Smart Contract (Clarity) deployed on Stacks Testnet/Mainnet
+Frontend App (Vite + React + TailwindCSS) for interacting with the token
 
-🎯 Fitur Utama
-Smart Contract (Clarity)
-Fungsi mint (hanya admin) untuk memberi reward token.
-Fungsi transfer antar pengguna.
-Fungsi get-balance untuk cek saldo.
-Fungsi burn (opsional) untuk penukaran hadiah.
+🎯 Problem Statement
+Many young people in Indonesia lack motivation to exercise regularly, leading to health issues such as obesity, heart disease, and sedentary lifestyles. The absence of tangible incentives causes people to lose interest in maintaining fitness.
+
+💡 Solution Overview
+PSHT is a blockchain-based reward token for healthy activities.
+Reward Distribution: Event admins verify participants’ achievements (e.g., step count, sports event participation) and send PSHT tokens directly to their wallets.
+Token Redemption: Users can redeem PSHT tokens for rewards like merchandise, vouchers, or other benefits.
+Transparency & Security: All transactions are recorded on-chain, ensuring they cannot be manipulated and providing users with verifiable proof.
+
+Advantages over conventional solutions:
+Full ownership: Tokens are held in the user’s wallet.
+Automated & measurable: Smart contracts reduce human error and fraud.
+Flexible: Can be adapted for various events and communities.
+
+🎯 Value Proposition
+For Users:
+
+Earn tangible rewards for healthy activities
+Transparent, verifiable reward system
+Stronger motivation through blockchain-backed incentives
+
+For Ecosystem:
+
+Partnerships with sports brands, gyms, running communities, and event organizers
+Sustainable token circulation between users and admins
+
+Promotes blockchain adoption in the health & lifestyle sector
